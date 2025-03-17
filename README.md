@@ -3,7 +3,7 @@
 
 Пропишите в server и client ``` npm i ```
 
-После в server .env пропишите правильно путь с паролем для своего postgresql
+После в server .env пропишите правильно путь с паролем для своего postgresql ``` DATABASE_URL="postgresql://ВАШ_ПОЛЬЗОВАТЕЛЬ:ПАРОЛЬ@localhost:5432/ИМЯ_БАЗЫ?schema=public" ```
 
 Затем ```npx prisma migrate dev --name init ```
 
